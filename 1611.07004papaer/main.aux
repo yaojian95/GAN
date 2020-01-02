@@ -1,0 +1,427 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
+\HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldcontentsline\contentsline
+\gdef\contentsline#1#2#3#4{\oldcontentsline{#1}{#2}{#3}}
+\global\let\oldnewlabel\newlabel
+\gdef\newlabel#1#2{\newlabelxx{#1}#2}
+\gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\contentsline\oldcontentsline
+\let\newlabel\oldnewlabel
+\fi}
+\fi}
+\global\let\hyper@last\relax 
+\gdef\HyperFirstAtBeginDocument#1{#1}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\citation{efros2001image}
+\citation{hertzmann2001image}
+\citation{fergus2006removing}
+\citation{buades2005non}
+\citation{chen2009sketch2photo}
+\citation{shih2013data}
+\citation{laffont2014transient}
+\citation{long2015fully}
+\citation{eigen2015predicting}
+\citation{xie2015holistically}
+\citation{zhang2016colorful}
+\citation{pathak2016context}
+\citation{zhang2016colorful}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Many problems in image processing, graphics, and vision involve translating an input image into a corresponding output image. These problems are often treated with application-specific algorithms, even though the setting is always the same: map pixels to pixels. Conditional adversarial nets are a general-purpose solution that appears to work well on a wide variety of these problems. Here we show results of the method on several. In each case we use the same architecture and objective, and simply train on different data.\relax }}{1}{figure.1}}
+\newlabel{teaser}{{1}{1}{Many problems in image processing, graphics, and vision involve translating an input image into a corresponding output image. These problems are often treated with application-specific algorithms, even though the setting is always the same: map pixels to pixels. Conditional adversarial nets are a general-purpose solution that appears to work well on a wide variety of these problems. Here we show results of the method on several. In each case we use the same architecture and objective, and simply train on different data.\relax }{figure.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {1}\hskip -1em.\nobreakspace  {}Introduction}{1}{section.1}}
+\@writefile{brf}{\backcite{efros2001image, hertzmann2001image, fergus2006removing, buades2005non, chen2009sketch2photo, shih2013data, laffont2014transient, long2015fully, eigen2015predicting, xie2015holistically, zhang2016colorful}{{1}{1}{section.1}}}
+\citation{goodfellow2014generative}
+\citation{denton2015deep}
+\citation{radford2015unsupervised}
+\citation{salimans2016improved}
+\citation{zhao2016energy}
+\citation{goodfellow2014generative}
+\citation{long2015fully}
+\citation{xie2015holistically}
+\citation{iizuka2016let}
+\citation{larsson2016learning}
+\citation{zhang2016colorful}
+\citation{chen14semantic}
+\citation{wang2004image}
+\citation{dosovitskiy2016generating}
+\citation{li2016combining}
+\citation{xie2015convolutional}
+\citation{johnson2016perceptual}
+\citation{mirza2014conditional}
+\citation{gauthier2014conditional}
+\citation{denton2015deep}
+\citation{reed2016generative}
+\citation{wang2016generative}
+\citation{mathieu2015deep}
+\citation{yoo2016pixel}
+\citation{karacan2016learning}
+\citation{reed2016learning}
+\citation{reed2016generating}
+\citation{pathak2016context}
+\citation{zhou2016learning}
+\citation{zhu2016generative}
+\citation{li2016precomputed}
+\citation{ledig2016photo}
+\citation{ronneberger2015u}
+\citation{li2016precomputed}
+\citation{goodfellow2014generative}
+\@writefile{brf}{\backcite{pathak2016context, zhang2016colorful}{{2}{1}{section.1}}}
+\@writefile{brf}{\backcite{goodfellow2014generative, denton2015deep, radford2015unsupervised, salimans2016improved, zhao2016energy}{{2}{1}{section.1}}}
+\@writefile{brf}{\backcite{goodfellow2014generative}{{2}{1}{section.1}}}
+\@writefile{toc}{\contentsline {section}{\numberline {2}\hskip -1em.\nobreakspace  {}Related work}{2}{section.2}}
+\@writefile{brf}{\backcite{long2015fully,xie2015holistically,iizuka2016let,larsson2016learning,zhang2016colorful}{{2}{2}{section.2}}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Training a conditional GAN to map edges$\rightarrow $photo. The discriminator, $D$, learns to classify between fake (synthesized by the generator) and real \{edge, photo\} tuples. The generator, $G$, learns to fool the discriminator. Unlike an unconditional GAN, both the generator and discriminator observe the input edge map.\relax }}{2}{figure.caption.1}}
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{cGAN_method}{{2}{2}{Training a conditional GAN to map edges$\rightarrow $photo. The discriminator, $D$, learns to classify between fake (synthesized by the generator) and real \{edge, photo\} tuples. The generator, $G$, learns to fool the discriminator. Unlike an unconditional GAN, both the generator and discriminator observe the input edge map.\relax }{figure.caption.1}{}}
+\@writefile{brf}{\backcite{chen14semantic}{{2}{2}{section.2}}}
+\@writefile{brf}{\backcite{wang2004image}{{2}{2}{section.2}}}
+\@writefile{brf}{\backcite{dosovitskiy2016generating}{{2}{2}{section.2}}}
+\@writefile{brf}{\backcite{li2016combining}{{2}{2}{section.2}}}
+\@writefile{brf}{\backcite{xie2015convolutional}{{2}{2}{section.2}}}
+\@writefile{brf}{\backcite{johnson2016perceptual}{{2}{2}{section.2}}}
+\@writefile{brf}{\backcite{mirza2014conditional,gauthier2014conditional,denton2015deep}{{2}{2}{figure.caption.1}}}
+\@writefile{brf}{\backcite{reed2016generative}{{2}{2}{figure.caption.1}}}
+\@writefile{brf}{\backcite{wang2016generative}{{2}{2}{figure.caption.1}}}
+\@writefile{brf}{\backcite{mathieu2015deep}{{2}{2}{figure.caption.1}}}
+\@writefile{brf}{\backcite{yoo2016pixel}{{2}{2}{figure.caption.1}}}
+\@writefile{brf}{\backcite{karacan2016learning,reed2016learning}{{2}{2}{figure.caption.1}}}
+\@writefile{brf}{\backcite{reed2016generating}{{2}{2}{figure.caption.1}}}
+\@writefile{brf}{\backcite{pathak2016context}{{2}{2}{figure.caption.1}}}
+\@writefile{brf}{\backcite{zhou2016learning}{{2}{2}{figure.caption.1}}}
+\@writefile{brf}{\backcite{zhu2016generative}{{2}{2}{figure.caption.1}}}
+\@writefile{brf}{\backcite{li2016precomputed}{{2}{2}{figure.caption.1}}}
+\@writefile{brf}{\backcite{ledig2016photo}{{2}{2}{figure.caption.1}}}
+\@writefile{brf}{\backcite{ronneberger2015u}{{2}{2}{figure.caption.1}}}
+\@writefile{brf}{\backcite{li2016precomputed}{{2}{2}{figure.caption.1}}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}\hskip -1em.\nobreakspace  {}Method}{2}{section.3}}
+\@writefile{brf}{\backcite{goodfellow2014generative}{{2}{3}{section.3}}}
+\citation{pathak2016context}
+\citation{wang2016generative}
+\citation{mathieu2015deep}
+\citation{radford2015unsupervised}
+\citation{ioffe2015batch}
+\citation{ronneberger2015u}
+\citation{ronneberger2015u}
+\citation{pathak2016context}
+\citation{wang2016generative}
+\citation{johnson2016perceptual}
+\citation{zhou2016learning}
+\citation{yoo2016pixel}
+\citation{hinton2006reducing}
+\citation{ronneberger2015u}
+\citation{larsen2015autoencoding}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}\hskip -1em.\nobreakspace  {}Objective}{3}{subsection.3.1}}
+\newlabel{cGAN_equation}{{1}{3}{\hskip -1em.~Objective}{equation.3.1}{}}
+\newlabel{GAN_equation}{{2}{3}{\hskip -1em.~Objective}{equation.3.2}{}}
+\@writefile{brf}{\backcite{pathak2016context}{{3}{3.1}{equation.3.2}}}
+\newlabel{L1_equation}{{3}{3}{\hskip -1em.~Objective}{equation.3.3}{}}
+\newlabel{full_objective}{{4}{3}{\hskip -1em.~Objective}{equation.3.4}{}}
+\@writefile{brf}{\backcite{wang2016generative}{{3}{3.1}{equation.3.4}}}
+\@writefile{brf}{\backcite{mathieu2015deep}{{3}{3.1}{equation.3.4}}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Two choices for the architecture of the generator. The ``U-Net" \cite  {ronneberger2015u} is an encoder-decoder with skip connections between mirrored layers in the encoder and decoder stacks.\relax }}{3}{figure.caption.2}}
+\@writefile{brf}{\backcite{ronneberger2015u}{{3}{3}{figure.caption.2}}}
+\newlabel{generator_architecture}{{3}{3}{Two choices for the architecture of the generator. The ``U-Net" \cite {ronneberger2015u} is an encoder-decoder with skip connections between mirrored layers in the encoder and decoder stacks.\relax }{figure.caption.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}\hskip -1em.\nobreakspace  {}Network architectures}{3}{subsection.3.2}}
+\@writefile{brf}{\backcite{radford2015unsupervised}{{3}{3.2}{subsection.3.2}}}
+\@writefile{brf}{\backcite{ioffe2015batch}{{3}{3.2}{subsection.3.2}}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.1}Generator with skips}{3}{subsubsection.3.2.1}}
+\@writefile{brf}{\backcite{pathak2016context, wang2016generative, johnson2016perceptual, zhou2016learning, yoo2016pixel}{{3}{3.2.1}{subsubsection.3.2.1}}}
+\@writefile{brf}{\backcite{hinton2006reducing}{{3}{3.2.1}{subsubsection.3.2.1}}}
+\@writefile{brf}{\backcite{ronneberger2015u}{{3}{3.2.1}{subsubsection.3.2.1}}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.2}Markovian discriminator (PatchGAN)}{3}{subsubsection.3.2.2}}
+\@writefile{brf}{\backcite{larsen2015autoencoding}{{3}{3.2.2}{subsubsection.3.2.2}}}
+\citation{li2016precomputed}
+\citation{efros1999texture}
+\citation{gatys2015texture}
+\citation{efros2001image}
+\citation{hertzmann2001image}
+\citation{gatys2015neural}
+\citation{li2016combining}
+\citation{goodfellow2014generative}
+\citation{goodfellow2014generative}
+\citation{kingma2014adam}
+\citation{ioffe2015batch}
+\citation{ulyanov2016instance}
+\citation{Cordts2016Cityscapes}
+\citation{Tylecek13}
+\citation{russakovsky2015imagenet}
+\citation{zhu2016generative}
+\citation{finegrained_shoes}
+\citation{xie2015holistically}
+\citation{eitz2012humans}
+\citation{laffont2014transient}
+\citation{hwang2015multispectral}
+\citation{doersch2012makes}
+\citation{salimans2016improved}
+\citation{salimans2016improved}
+\citation{wang2016generative}
+\citation{zhang2016colorful}
+\citation{owens2016visually}
+\@writefile{brf}{\backcite{li2016precomputed}{{4}{3.2.2}{subsubsection.3.2.2}}}
+\@writefile{brf}{\backcite{efros1999texture,gatys2015texture}{{4}{3.2.2}{subsubsection.3.2.2}}}
+\@writefile{brf}{\backcite{efros2001image,hertzmann2001image,gatys2015neural,li2016combining}{{4}{3.2.2}{subsubsection.3.2.2}}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}\hskip -1em.\nobreakspace  {}Optimization and inference}{4}{subsection.3.3}}
+\@writefile{brf}{\backcite{goodfellow2014generative}{{4}{3.3}{subsection.3.3}}}
+\@writefile{brf}{\backcite{goodfellow2014generative}{{4}{3.3}{subsection.3.3}}}
+\@writefile{brf}{\backcite{kingma2014adam}{{4}{3.3}{subsection.3.3}}}
+\@writefile{brf}{\backcite{ioffe2015batch}{{4}{3.3}{subsection.3.3}}}
+\@writefile{brf}{\backcite{ulyanov2016instance}{{4}{3.3}{subsection.3.3}}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}\hskip -1em.\nobreakspace  {}Experiments}{4}{section.4}}
+\@writefile{brf}{\backcite{Cordts2016Cityscapes}{{4}{4}{section.4}}}
+\@writefile{brf}{\backcite{Tylecek13}{{4}{4}{section.4}}}
+\@writefile{brf}{\backcite{russakovsky2015imagenet}{{4}{4}{section.4}}}
+\@writefile{brf}{\backcite{zhu2016generative}{{4}{4}{section.4}}}
+\@writefile{brf}{\backcite{finegrained_shoes}{{4}{4}{section.4}}}
+\@writefile{brf}{\backcite{xie2015holistically}{{4}{4}{section.4}}}
+\@writefile{brf}{\backcite{eitz2012humans}{{4}{4}{section.4}}}
+\@writefile{brf}{\backcite{laffont2014transient}{{4}{4}{section.4}}}
+\@writefile{brf}{\backcite{hwang2015multispectral}{{4}{4}{section.4}}}
+\@writefile{brf}{\backcite{doersch2012makes}{{4}{4}{section.4}}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}\hskip -1em.\nobreakspace  {}Evaluation metrics}{4}{subsection.4.1}}
+\@writefile{brf}{\backcite{salimans2016improved}{{4}{4.1}{subsection.4.1}}}
+\citation{zhang2016colorful}
+\citation{zhang2016colorful}
+\citation{salimans2016improved}
+\citation{wang2016generative}
+\citation{zhang2016colorful}
+\citation{owens2016visually}
+\citation{long2015fully}
+\citation{goodfellow2014generative}
+\citation{goodfellow2014generative}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Different losses induce different quality of results. Each column shows results trained under a different loss. Please see \texttt  {https://phillipi.github.io/pix2pix/} for additional examples.\relax }}{5}{figure.caption.3}}
+\newlabel{cityscapes_loss_variations_qualitative}{{4}{5}{Different losses induce different quality of results. Each column shows results trained under a different loss. Please see \texttt {https://phillipi.github.io/pix2pix/} for additional examples.\relax }{figure.caption.3}{}}
+\@writefile{brf}{\backcite{salimans2016improved}{{5}{4.1}{subsection.4.1}}}
+\@writefile{brf}{\backcite{wang2016generative}{{5}{4.1}{subsection.4.1}}}
+\@writefile{brf}{\backcite{zhang2016colorful}{{5}{4.1}{subsection.4.1}}}
+\@writefile{brf}{\backcite{owens2016visually}{{5}{4.1}{subsection.4.1}}}
+\@writefile{brf}{\backcite{zhang2016colorful}{{5}{4.1}{subsection.4.1}}}
+\@writefile{brf}{\backcite{zhang2016colorful}{{5}{4.1}{subsection.4.1}}}
+\@writefile{brf}{\backcite{salimans2016improved, wang2016generative, zhang2016colorful,owens2016visually}{{5}{4.1}{subsection.4.1}}}
+\@writefile{brf}{\backcite{long2015fully}{{5}{4.1}{subsection.4.1}}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}\hskip -1em.\nobreakspace  {}Analysis of the objective function}{5}{subsection.4.2}}
+\citation{goodfellow2014generative}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Adding skip connections to an encoder-decoder to create a ``U-Net" results in much higher quality results.\relax }}{6}{figure.caption.4}}
+\newlabel{enc_dec_vs_unet}{{5}{6}{Adding skip connections to an encoder-decoder to create a ``U-Net" results in much higher quality results.\relax }{figure.caption.4}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces FCN-scores for different losses, evaluated on Cityscapes labels$\leftrightarrow $photos.\relax }}{6}{table.caption.6}}
+\newlabel{tab:loss_variations}{{1}{6}{FCN-scores for different losses, evaluated on Cityscapes labels$\leftrightarrow $photos.\relax }{table.caption.6}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces FCN-scores for different generator architectures (and objectives), evaluated on Cityscapes labels$\leftrightarrow $photos. (U-net (L1-cGAN) scores differ from those reported in other tables since batch size was 10 for this experiment and 1 for other tables, and random variation between training runs.)\relax }}{6}{table.caption.7}}
+\newlabel{tab:arch_variations}{{2}{6}{FCN-scores for different generator architectures (and objectives), evaluated on Cityscapes labels$\leftrightarrow $photos. (U-net (L1-cGAN) scores differ from those reported in other tables since batch size was 10 for this experiment and 1 for other tables, and random variation between training runs.)\relax }{table.caption.7}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces FCN-scores for different receptive field sizes of the discriminator, evaluated on Cityscapes labels$\rightarrow $photos. Note that input images are $256 \times 256$ pixels and larger receptive fields are padded with zeros.\relax }}{6}{table.caption.8}}
+\newlabel{tab:patchsize_variations}{{3}{6}{FCN-scores for different receptive field sizes of the discriminator, evaluated on Cityscapes labels$\rightarrow $photos. Note that input images are $256 \times 256$ pixels and larger receptive fields are padded with zeros.\relax }{table.caption.8}{}}
+\@writefile{brf}{\backcite{goodfellow2014generative}{{6}{4.2}{subsection.4.2}}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}\hskip -1em.\nobreakspace  {}Analysis of the generator architecture}{6}{subsection.4.3}}
+\newlabel{analysis_of_gen_arch}{{4.3}{6}{\hskip -1em.~Analysis of the generator architecture}{subsection.4.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}\hskip -1em.\nobreakspace  {}From PixelGANs to PatchGANs to ImageGANs}{6}{subsection.4.4}}
+\newlabel{patch_variations_section}{{4.4}{6}{\hskip -1em.~From PixelGANs to PatchGANs to ImageGANs}{subsection.4.4}{}}
+\citation{reinhard_color_2001}
+\citation{zhang2016colorful}
+\citation{zhang2016colorful}
+\citation{zhang2016colorful}
+\citation{zhou2016learning}
+\citation{zhang2016colorful}
+\citation{zhou2016learning}
+\citation{zhang2016colorful}
+\citation{zhang2016colorful}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Patch size variations. Uncertainty in the output manifests itself differently for different loss functions. Uncertain regions become blurry and desaturated under L1. The 1x1 PixelGAN encourages greater color diversity but has no effect on spatial statistics. The 16x16 PatchGAN creates locally sharp results, but also leads to tiling artifacts beyond the scale it can observe. The 70$\times $70 PatchGAN forces outputs that are sharp, even if incorrect, in both the spatial and spectral (colorfulness) dimensions. The full 286$\times $286 ImageGAN produces results that are visually similar to the 70$\times $70 PatchGAN, but somewhat lower quality according to our FCN-score metric (Table \ref  {tab:patchsize_variations}). Please see \texttt  {https://phillipi.github.io/pix2pix/} for additional examples.\relax }}{7}{figure.caption.5}}
+\newlabel{patchsize_variations_qualitative}{{6}{7}{Patch size variations. Uncertainty in the output manifests itself differently for different loss functions. Uncertain regions become blurry and desaturated under L1. The 1x1 PixelGAN encourages greater color diversity but has no effect on spatial statistics. The 16x16 PatchGAN creates locally sharp results, but also leads to tiling artifacts beyond the scale it can observe. The 70$\times $70 PatchGAN forces outputs that are sharp, even if incorrect, in both the spatial and spectral (colorfulness) dimensions. The full 286$\times $286 ImageGAN produces results that are visually similar to the 70$\times $70 PatchGAN, but somewhat lower quality according to our FCN-score metric (Table \ref {tab:patchsize_variations}). Please see \texttt {https://phillipi.github.io/pix2pix/} for additional examples.\relax }{figure.caption.5}{}}
+\newlabel{tab:color_hists}{{7d}{7}{Subfigure 7d}{subfigure.7.4}{}}
+\newlabel{sub@tab:color_hists}{{(d)}{d}{Subfigure 7d\relax }{subfigure.7.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Color distribution matching property of the cGAN, tested on Cityscapes. (c.f. Figure 1 of the original GAN paper \cite  {goodfellow2014generative}). Note that the histogram intersection scores are dominated by differences in the high probability region, which are imperceptible in the plots, which show log probability and therefore emphasize differences in the low probability regions.\relax }}{7}{figure.caption.9}}
+\@writefile{brf}{\backcite{goodfellow2014generative}{{7}{7}{figure.caption.9}}}
+\newlabel{color_hists}{{7}{7}{Color distribution matching property of the cGAN, tested on Cityscapes. (c.f. Figure 1 of the original GAN paper \cite {goodfellow2014generative}). Note that the histogram intersection scores are dominated by differences in the high probability region, which are imperceptible in the plots, which show log probability and therefore emphasize differences in the low probability regions.\relax }{figure.caption.9}{}}
+\@writefile{brf}{\backcite{reinhard_color_2001}{{7}{4.4}{subsection.4.4}}}
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces AMT ``real vs fake" test on maps$\leftrightarrow $aerial photos.\relax }}{7}{table.caption.13}}
+\newlabel{tab:AMT_map2sat}{{4}{7}{AMT ``real vs fake" test on maps$\leftrightarrow $aerial photos.\relax }{table.caption.13}{}}
+\@writefile{brf}{\backcite{zhang2016colorful}{{7}{\caption@xref {??}{ on input line 407}}{table.caption.14}}}
+\@writefile{brf}{\backcite{zhang2016colorful}{{7}{\caption@xref {??}{ on input line 407}}{table.caption.14}}}
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces AMT ``real vs fake" test on colorization.\relax }}{7}{table.caption.14}}
+\newlabel{tab:AMT_colorization}{{5}{7}{AMT ``real vs fake" test on colorization.\relax }{table.caption.14}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5}\hskip -1em.\nobreakspace  {}Perceptual validation}{7}{subsection.4.5}}
+\citation{edges2cats}
+\citation{background}
+\citation{palette}
+\citation{sketch2portrait}
+\citation{sketch2pokemon}
+\citation{pose}
+\citation{fotogenerator}
+\citation{edges2cats}
+\citation{background}
+\citation{palette}
+\citation{sketch2portrait}
+\citation{sketch2pokemon}
+\citation{pose}
+\citation{fotogenerator}
+\citation{russakovsky2015imagenet}
+\citation{zhang2016colorful}
+\citation{larsson2016learning}
+\citation{zhang2016colorful}
+\citation{zhang2016colorful}
+\citation{zhang2016colorful}
+\citation{zhang2016colorful}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Example results on Google Maps at 512x512 resolution (model was trained on images at $256 \times 256$ resolution, and run convolutionally on the larger images at test time). Contrast adjusted for clarity.\relax }}{8}{figure.caption.10}}
+\newlabel{sat2map_res}{{8}{8}{Example results on Google Maps at 512x512 resolution (model was trained on images at $256 \times 256$ resolution, and run convolutionally on the larger images at test time). Contrast adjusted for clarity.\relax }{figure.caption.10}{}}
+\@writefile{brf}{\backcite{zhang2016colorful}{{8}{\caption@xref {??}{ on input line 8}}{figure.caption.11}}}
+\@writefile{brf}{\backcite{zhang2016colorful}{{8}{\caption@xref {??}{ on input line 8}}{figure.caption.11}}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Colorization results of conditional GANs versus the L2 regression from \cite  {zhang2016colorful} and the full method (classification with rebalancing) from \cite  {zhou2016learning}. The cGANs can produce compelling colorizations (first two rows), but have a common failure mode of producing a grayscale or desaturated result (last row).\relax }}{8}{figure.caption.11}}
+\@writefile{brf}{\backcite{zhang2016colorful}{{8}{9}{figure.caption.11}}}
+\@writefile{brf}{\backcite{zhou2016learning}{{8}{9}{figure.caption.11}}}
+\newlabel{colorization_res}{{9}{8}{Colorization results of conditional GANs versus the L2 regression from \cite {zhang2016colorful} and the full method (classification with rebalancing) from \cite {zhou2016learning}. The cGANs can produce compelling colorizations (first two rows), but have a common failure mode of producing a grayscale or desaturated result (last row).\relax }{figure.caption.11}{}}
+\@writefile{brf}{\backcite{russakovsky2015imagenet}{{8}{4.5}{figure.caption.15}}}
+\@writefile{brf}{\backcite{zhang2016colorful, larsson2016learning}{{8}{4.5}{figure.caption.15}}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces Applying a conditional GAN to semantic segmentation. The cGAN produces sharp images that look at glance like the ground truth, but in fact include many small, hallucinated objects.\relax }}{8}{figure.caption.12}}
+\newlabel{cityscapes_image_to_labels}{{10}{8}{Applying a conditional GAN to semantic segmentation. The cGAN produces sharp images that look at glance like the ground truth, but in fact include many small, hallucinated objects.\relax }{figure.caption.12}{}}
+\@writefile{brf}{\backcite{zhang2016colorful}{{8}{4.5}{figure.caption.15}}}
+\@writefile{brf}{\backcite{zhang2016colorful}{{8}{4.5}{figure.caption.15}}}
+\@writefile{brf}{\backcite{zhang2016colorful}{{8}{4.5}{figure.caption.15}}}
+\@writefile{brf}{\backcite{zhang2016colorful}{{8}{4.5}{figure.caption.15}}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.6}\hskip -1em.\nobreakspace  {}Semantic segmentation}{8}{subsection.4.6}}
+\citation{sunday}
+\citation{sunday}
+\citation{eitz2012humans}
+\citation{eitz2012humans}
+\citation{pathak2016context}
+\citation{doersch2012makes}
+\citation{pathak2016context}
+\citation{doersch2012makes}
+\citation{hwang2015multispectral}
+\citation{hwang2015multispectral}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces Example applications developed by online community based on our {\tt  pix2pix} codebase: \emph  {\#edges2cats}\nobreakspace  {}\cite  {edges2cats} by Christopher Hesse, \emph  {Background removal}\nobreakspace  {}\cite  {background} by Kaihu Chen, \emph  {Palette generation}\nobreakspace  {}\cite  {palette} by Jack Qiao, \emph  {Sketch $\rightarrow $ Portrait}\nobreakspace  {}\cite  {sketch2portrait} by Mario Klingemann, \emph  {Sketch$\rightarrow $ Pokemon}\nobreakspace  {}\cite  {sketch2pokemon} by Bertrand Gondouin, \emph  {``Do As I Do'' pose transfer}\nobreakspace  {}\cite  {pose} by Brannon Dorsey, and \emph  {\#fotogenerator} by Bosman et al.\nobreakspace  {}\cite  {fotogenerator}.\relax }}{9}{figure.caption.15}}
+\@writefile{brf}{\backcite{edges2cats}{{9}{11}{figure.caption.15}}}
+\@writefile{brf}{\backcite{background}{{9}{11}{figure.caption.15}}}
+\@writefile{brf}{\backcite{palette}{{9}{11}{figure.caption.15}}}
+\@writefile{brf}{\backcite{sketch2portrait}{{9}{11}{figure.caption.15}}}
+\@writefile{brf}{\backcite{sketch2pokemon}{{9}{11}{figure.caption.15}}}
+\@writefile{brf}{\backcite{pose}{{9}{11}{figure.caption.15}}}
+\@writefile{brf}{\backcite{fotogenerator}{{9}{11}{figure.caption.15}}}
+\newlabel{twitter}{{11}{9}{Example applications developed by online community based on our {\tt pix2pix} codebase: \emph {\#edges2cats}~\cite {edges2cats} by Christopher Hesse, \emph {Background removal}~\cite {background} by Kaihu Chen, \emph {Palette generation}~\cite {palette} by Jack Qiao, \emph {Sketch $\rightarrow $ Portrait}~\cite {sketch2portrait} by Mario Klingemann, \emph {Sketch$\rightarrow $ Pokemon}~\cite {sketch2pokemon} by Bertrand Gondouin, \emph {``Do As I Do'' pose transfer}~\cite {pose} by Brannon Dorsey, and \emph {\#fotogenerator} by Bosman et al.~\cite {fotogenerator}.\relax }{figure.caption.15}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces Performance of photo$\rightarrow $labels on cityscapes.\relax }}{9}{table.caption.16}}
+\newlabel{tab:image_to_labels_results}{{6}{9}{Performance of photo$\rightarrow $labels on cityscapes.\relax }{table.caption.16}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.7}\hskip -1em.\nobreakspace  {}Community-driven Research}{9}{subsection.4.7}}
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces \emph  {Learning to see: Gloomy Sunday}: An interactive artistic demo developed by Memo Akten\nobreakspace  {}\cite  {sunday} based on our {\tt  pix2pix} codebase. Please click the image to play the video in a browser.\relax }}{9}{figure.caption.17}}
+\@writefile{brf}{\backcite{sunday}{{9}{12}{figure.caption.17}}}
+\newlabel{sunday}{{12}{9}{\emph {Learning to see: Gloomy Sunday}: An interactive artistic demo developed by Memo Akten~\cite {sunday} based on our {\tt pix2pix} codebase. Please click the image to play the video in a browser.\relax }{figure.caption.17}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}\hskip -1em.\nobreakspace  {}Conclusion}{9}{section.5}}
+\@writefile{toc}{\contentsline {paragraph}{Acknowledgments:}{9}{section*.18}}
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces Example results of our method on Cityscapes labels$\rightarrow $photo, compared to ground truth.\relax }}{10}{figure.caption.19}}
+\newlabel{cityscapes_lotsofresults}{{13}{10}{Example results of our method on Cityscapes labels$\rightarrow $photo, compared to ground truth.\relax }{figure.caption.19}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces Example results of our method on facades labels$\rightarrow $photo, compared to ground truth.\relax }}{10}{figure.caption.20}}
+\newlabel{facades_lotsofresults}{{14}{10}{Example results of our method on facades labels$\rightarrow $photo, compared to ground truth.\relax }{figure.caption.20}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces Example results of our method on day$\rightarrow $night, compared to ground truth.\relax }}{11}{figure.caption.21}}
+\newlabel{day2night_lotsofresults}{{15}{11}{Example results of our method on day$\rightarrow $night, compared to ground truth.\relax }{figure.caption.21}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {16}{\ignorespaces Example results of our method on automatically detected edges$\rightarrow $handbags, compared to ground truth.\relax }}{11}{figure.caption.22}}
+\newlabel{handbags_edges_lotsofresults}{{16}{11}{Example results of our method on automatically detected edges$\rightarrow $handbags, compared to ground truth.\relax }{figure.caption.22}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {17}{\ignorespaces Example results of our method on automatically detected edges$\rightarrow $shoes, compared to ground truth.\relax }}{12}{figure.caption.23}}
+\newlabel{shoes_edges_lotsofresults}{{17}{12}{Example results of our method on automatically detected edges$\rightarrow $shoes, compared to ground truth.\relax }{figure.caption.23}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {18}{\ignorespaces Additional results of the edges$\rightarrow $photo models applied to human-drawn sketches from \cite  {eitz2012humans}. Note that the models were trained on automatically detected edges, but generalize to human drawings\relax }}{12}{figure.caption.24}}
+\@writefile{brf}{\backcite{eitz2012humans}{{12}{18}{figure.caption.24}}}
+\newlabel{sketches_lotsofresults}{{18}{12}{Additional results of the edges$\rightarrow $photo models applied to human-drawn sketches from \cite {eitz2012humans}. Note that the models were trained on automatically detected edges, but generalize to human drawings\relax }{figure.caption.24}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {19}{\ignorespaces Example results on photo inpainting, compared to \cite  {pathak2016context}, on the Paris StreetView dataset \cite  {doersch2012makes}. This experiment demonstrates that the U-net architecture can be effective even when the predicted pixels are not geometrically aligned with the information in the input -- the information used to fill in the central hole has to be found in the periphery of these photos.\relax }}{13}{figure.caption.25}}
+\@writefile{brf}{\backcite{pathak2016context}{{13}{19}{figure.caption.25}}}
+\@writefile{brf}{\backcite{doersch2012makes}{{13}{19}{figure.caption.25}}}
+\newlabel{inpaint}{{19}{13}{Example results on photo inpainting, compared to \cite {pathak2016context}, on the Paris StreetView dataset \cite {doersch2012makes}. This experiment demonstrates that the U-net architecture can be effective even when the predicted pixels are not geometrically aligned with the information in the input -- the information used to fill in the central hole has to be found in the periphery of these photos.\relax }{figure.caption.25}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {20}{\ignorespaces Example results on translating thermal images to RGB photos, on the dataset from \cite  {hwang2015multispectral}.\relax }}{13}{figure.caption.26}}
+\@writefile{brf}{\backcite{hwang2015multispectral}{{13}{20}{figure.caption.26}}}
+\newlabel{thermal2rgb}{{20}{13}{Example results on translating thermal images to RGB photos, on the dataset from \cite {hwang2015multispectral}.\relax }{figure.caption.26}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {21}{\ignorespaces Example failure cases. Each pair of images shows input on the left and output on the right. These examples are selected as some of the worst results on our tasks. Common failures include artifacts in regions where the input image is sparse, and difficulty in handling unusual inputs. Please see \texttt  {https://phillipi.github.io/pix2pix/} for more comprehensive results.\relax }}{13}{figure.caption.27}}
+\newlabel{failure_cases}{{21}{13}{Example failure cases. Each pair of images shows input on the left and output on the right. These examples are selected as some of the worst results on our tasks. Common failures include artifacts in regions where the input image is sparse, and difficulty in handling unusual inputs. Please see \texttt {https://phillipi.github.io/pix2pix/} for more comprehensive results.\relax }{figure.caption.27}{}}
+\bibstyle{ieee}
+\bibdata{main}
+\bibcite{sketch2pokemon}{1}
+\bibcite{pose}{2}
+\bibcite{edges2cats}{3}
+\bibcite{fotogenerator}{4}
+\bibcite{palette}{5}
+\bibcite{background}{6}
+\bibcite{sketch2portrait}{7}
+\bibcite{sunday}{8}
+\bibcite{buades2005non}{9}
+\bibcite{chen14semantic}{10}
+\bibcite{chen2009sketch2photo}{11}
+\bibcite{Cordts2016Cityscapes}{12}
+\bibcite{denton2015deep}{13}
+\bibcite{doersch2012makes}{14}
+\bibcite{dosovitskiy2016generating}{15}
+\bibcite{efros2001image}{16}
+\bibcite{efros1999texture}{17}
+\bibcite{eigen2015predicting}{18}
+\bibcite{eitz2012humans}{19}
+\bibcite{fergus2006removing}{20}
+\bibcite{gatys2015texture}{21}
+\bibcite{gatys2015neural}{22}
+\bibcite{gauthier2014conditional}{23}
+\bibcite{goodfellow2014generative}{24}
+\bibcite{hertzmann2001image}{25}
+\bibcite{hinton2006reducing}{26}
+\bibcite{hwang2015multispectral}{27}
+\bibcite{iizuka2016let}{28}
+\bibcite{ioffe2015batch}{29}
+\bibcite{johnson2016perceptual}{30}
+\bibcite{karacan2016learning}{31}
+\bibcite{kingma2014adam}{32}
+\bibcite{laffont2014transient}{33}
+\bibcite{larsen2015autoencoding}{34}
+\bibcite{larsson2016learning}{35}
+\bibcite{ledig2016photo}{36}
+\bibcite{li2016combining}{37}
+\bibcite{li2016precomputed}{38}
+\bibcite{long2015fully}{39}
+\bibcite{mathieu2015deep}{40}
+\bibcite{mirza2014conditional}{41}
+\bibcite{owens2016visually}{42}
+\bibcite{pathak2016context}{43}
+\bibcite{radford2015unsupervised}{44}
+\bibcite{Tylecek13}{45}
+\bibcite{reed2016generative}{46}
+\bibcite{reed2016generating}{47}
+\bibcite{reed2016learning}{48}
+\bibcite{reinhard_color_2001}{49}
+\bibcite{ronneberger2015u}{50}
+\bibcite{russakovsky2015imagenet}{51}
+\bibcite{salimans2016improved}{52}
+\bibcite{shih2013data}{53}
+\bibcite{ulyanov2016instance}{54}
+\bibcite{wang2016generative}{55}
+\bibcite{wang2004image}{56}
+\bibcite{xie2015convolutional}{57}
+\bibcite{xie2015holistically}{58}
+\bibcite{yoo2016pixel}{59}
+\bibcite{finegrained_shoes}{60}
+\bibcite{yu2014fine}{61}
+\bibcite{zhang2016colorful}{62}
+\bibcite{zhao2016energy}{63}
+\bibcite{zhou2016learning}{64}
+\bibcite{zhu2016generative}{65}
+\citation{radford2015unsupervised}
+\citation{Cordts2016Cityscapes}
+\citation{Tylecek13}
+\citation{russakovsky2015imagenet}
+\citation{zhang2016colorful}
+\citation{larsson2016learning}
+\citation{yu2014fine}
+\citation{zhu2016generative}
+\citation{laffont2014transient}
+\citation{hwang2015multispectral}
+\citation{doersch2012makes}
+\citation{pathak2016context}
+\@writefile{toc}{\contentsline {section}{\numberline {6}\hskip -1em.\nobreakspace  {}Appendix}{16}{section.6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}\hskip -1em.\nobreakspace  {}Network architectures}{16}{subsection.6.1}}
+\@writefile{brf}{\backcite{radford2015unsupervised}{{16}{6.1}{subsection.6.1}}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.1.1}Generator architectures}{16}{subsubsection.6.1.1}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.1.2}Discriminator architectures}{16}{subsubsection.6.1.2}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}\hskip -1em.\nobreakspace  {}Training details}{16}{subsection.6.2}}
+\@writefile{brf}{\backcite{Cordts2016Cityscapes}{{16}{6.2}{subsection.6.2}}}
+\@writefile{brf}{\backcite{Tylecek13}{{16}{6.2}{subsection.6.2}}}
+\@writefile{brf}{\backcite{russakovsky2015imagenet}{{16}{6.2}{subsection.6.2}}}
+\@writefile{brf}{\backcite{zhang2016colorful}{{16}{6.2}{subsection.6.2}}}
+\@writefile{brf}{\backcite{larsson2016learning}{{16}{6.2}{subsection.6.2}}}
+\@writefile{brf}{\backcite{yu2014fine}{{16}{6.2}{subsection.6.2}}}
+\@writefile{brf}{\backcite{zhu2016generative}{{16}{6.2}{subsection.6.2}}}
+\@writefile{brf}{\backcite{laffont2014transient}{{16}{6.2}{subsection.6.2}}}
+\@writefile{brf}{\backcite{hwang2015multispectral}{{16}{6.2}{subsection.6.2}}}
+\@writefile{brf}{\backcite{doersch2012makes}{{17}{6.2}{subsection.6.2}}}
+\@writefile{brf}{\backcite{pathak2016context}{{17}{6.2}{subsection.6.2}}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3}\hskip -1em.\nobreakspace  {}Errata}{17}{subsection.6.3}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.4}\hskip -1em.\nobreakspace  {}Change log}{17}{subsection.6.4}}

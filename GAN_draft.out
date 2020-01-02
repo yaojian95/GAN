@@ -1,0 +1,16 @@
+\BOOKMARK [1][-]{section*.1}{ABSTRACT}{section*.2}% 1
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 2
+\BOOKMARK [1][-]{section.2}{Network architecture\(a figure\)}{}% 3
+\BOOKMARK [2][-]{subsection.2.1}{Loss function}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.2}{U-net structure}{section.2}% 5
+\BOOKMARK [2][-]{subsection.2.3}{Activation function}{section.2}% 6
+\BOOKMARK [2][-]{subsection.2.4}{Network}{section.2}% 7
+\BOOKMARK [2][-]{subsection.2.5}{To avoid overfitting}{section.2}% 8
+\BOOKMARK [2][-]{subsection.2.6}{Evaluation}{section.2}% 9
+\BOOKMARK [1][-]{section.3}{Test on the simulated maps}{}% 10
+\BOOKMARK [2][-]{subsection.3.1}{Simulated datasets}{section.3}% 11
+\BOOKMARK [2][-]{subsection.3.2}{Sphere-to-plane transformation}{section.3}% 12
+\BOOKMARK [2][-]{subsection.3.3}{Training data and testing data}{section.3}% 13
+\BOOKMARK [2][-]{subsection.3.4}{Test against different foregrounds with different tensor-to-scalar ratio}{section.3}% 14
+\BOOKMARK [1][-]{section.4}{Conclusions}{}% 15
+\BOOKMARK [1][-]{Appendix.1.A}{Appendix Experiment details}{}% 16

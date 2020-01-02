@@ -1,0 +1,102 @@
+\backcite {efros2001image, hertzmann2001image, fergus2006removing, buades2005non, chen2009sketch2photo, shih2013data, laffont2014transient, long2015fully, eigen2015predicting, xie2015holistically, zhang2016colorful}{{1}{1}{section.1}}
+\backcite {pathak2016context, zhang2016colorful}{{2}{1}{section.1}}
+\backcite {goodfellow2014generative, denton2015deep, radford2015unsupervised, salimans2016improved, zhao2016energy}{{2}{1}{section.1}}
+\backcite {goodfellow2014generative}{{2}{1}{section.1}}
+\backcite {long2015fully,xie2015holistically,iizuka2016let,larsson2016learning,zhang2016colorful}{{2}{2}{section.2}}
+\backcite {chen14semantic}{{2}{2}{section.2}}
+\backcite {wang2004image}{{2}{2}{section.2}}
+\backcite {dosovitskiy2016generating}{{2}{2}{section.2}}
+\backcite {li2016combining}{{2}{2}{section.2}}
+\backcite {xie2015convolutional}{{2}{2}{section.2}}
+\backcite {johnson2016perceptual}{{2}{2}{section.2}}
+\backcite {mirza2014conditional,gauthier2014conditional,denton2015deep}{{2}{2}{figure.caption.1}}
+\backcite {reed2016generative}{{2}{2}{figure.caption.1}}
+\backcite {wang2016generative}{{2}{2}{figure.caption.1}}
+\backcite {mathieu2015deep}{{2}{2}{figure.caption.1}}
+\backcite {yoo2016pixel}{{2}{2}{figure.caption.1}}
+\backcite {karacan2016learning,reed2016learning}{{2}{2}{figure.caption.1}}
+\backcite {reed2016generating}{{2}{2}{figure.caption.1}}
+\backcite {pathak2016context}{{2}{2}{figure.caption.1}}
+\backcite {zhou2016learning}{{2}{2}{figure.caption.1}}
+\backcite {zhu2016generative}{{2}{2}{figure.caption.1}}
+\backcite {li2016precomputed}{{2}{2}{figure.caption.1}}
+\backcite {ledig2016photo}{{2}{2}{figure.caption.1}}
+\backcite {ronneberger2015u}{{2}{2}{figure.caption.1}}
+\backcite {li2016precomputed}{{2}{2}{figure.caption.1}}
+\backcite {goodfellow2014generative}{{2}{3}{section.3}}
+\backcite {pathak2016context}{{3}{3.1}{equation.3.2}}
+\backcite {wang2016generative}{{3}{3.1}{equation.3.4}}
+\backcite {mathieu2015deep}{{3}{3.1}{equation.3.4}}
+\backcite {ronneberger2015u}{{3}{3}{figure.caption.2}}
+\backcite {radford2015unsupervised}{{3}{3.2}{subsection.3.2}}
+\backcite {ioffe2015batch}{{3}{3.2}{subsection.3.2}}
+\backcite {pathak2016context, wang2016generative, johnson2016perceptual, zhou2016learning, yoo2016pixel}{{3}{3.2.1}{subsubsection.3.2.1}}
+\backcite {hinton2006reducing}{{3}{3.2.1}{subsubsection.3.2.1}}
+\backcite {ronneberger2015u}{{3}{3.2.1}{subsubsection.3.2.1}}
+\backcite {larsen2015autoencoding}{{3}{3.2.2}{subsubsection.3.2.2}}
+\backcite {li2016precomputed}{{4}{3.2.2}{subsubsection.3.2.2}}
+\backcite {efros1999texture,gatys2015texture}{{4}{3.2.2}{subsubsection.3.2.2}}
+\backcite {efros2001image,hertzmann2001image,gatys2015neural,li2016combining}{{4}{3.2.2}{subsubsection.3.2.2}}
+\backcite {goodfellow2014generative}{{4}{3.3}{subsection.3.3}}
+\backcite {goodfellow2014generative}{{4}{3.3}{subsection.3.3}}
+\backcite {kingma2014adam}{{4}{3.3}{subsection.3.3}}
+\backcite {ioffe2015batch}{{4}{3.3}{subsection.3.3}}
+\backcite {ulyanov2016instance}{{4}{3.3}{subsection.3.3}}
+\backcite {Cordts2016Cityscapes}{{4}{4}{section.4}}
+\backcite {Tylecek13}{{4}{4}{section.4}}
+\backcite {russakovsky2015imagenet}{{4}{4}{section.4}}
+\backcite {zhu2016generative}{{4}{4}{section.4}}
+\backcite {finegrained_shoes}{{4}{4}{section.4}}
+\backcite {xie2015holistically}{{4}{4}{section.4}}
+\backcite {eitz2012humans}{{4}{4}{section.4}}
+\backcite {laffont2014transient}{{4}{4}{section.4}}
+\backcite {hwang2015multispectral}{{4}{4}{section.4}}
+\backcite {doersch2012makes}{{4}{4}{section.4}}
+\backcite {salimans2016improved}{{4}{4.1}{subsection.4.1}}
+\backcite {salimans2016improved}{{5}{4.1}{subsection.4.1}}
+\backcite {wang2016generative}{{5}{4.1}{subsection.4.1}}
+\backcite {zhang2016colorful}{{5}{4.1}{subsection.4.1}}
+\backcite {owens2016visually}{{5}{4.1}{subsection.4.1}}
+\backcite {zhang2016colorful}{{5}{4.1}{subsection.4.1}}
+\backcite {zhang2016colorful}{{5}{4.1}{subsection.4.1}}
+\backcite {salimans2016improved, wang2016generative, zhang2016colorful,owens2016visually}{{5}{4.1}{subsection.4.1}}
+\backcite {long2015fully}{{5}{4.1}{subsection.4.1}}
+\backcite {goodfellow2014generative}{{6}{4.2}{subsection.4.2}}
+\backcite {goodfellow2014generative}{{7}{7}{figure.caption.9}}
+\backcite {reinhard_color_2001}{{7}{4.4}{subsection.4.4}}
+\backcite {zhang2016colorful}{{7}{\caption@xref {??}{ on input line 407}}{table.caption.14}}
+\backcite {zhang2016colorful}{{7}{\caption@xref {??}{ on input line 407}}{table.caption.14}}
+\backcite {zhang2016colorful}{{8}{\caption@xref {??}{ on input line 8}}{figure.caption.11}}
+\backcite {zhang2016colorful}{{8}{\caption@xref {??}{ on input line 8}}{figure.caption.11}}
+\backcite {zhang2016colorful}{{8}{9}{figure.caption.11}}
+\backcite {zhou2016learning}{{8}{9}{figure.caption.11}}
+\backcite {russakovsky2015imagenet}{{8}{4.5}{figure.caption.15}}
+\backcite {zhang2016colorful, larsson2016learning}{{8}{4.5}{figure.caption.15}}
+\backcite {zhang2016colorful}{{8}{4.5}{figure.caption.15}}
+\backcite {zhang2016colorful}{{8}{4.5}{figure.caption.15}}
+\backcite {zhang2016colorful}{{8}{4.5}{figure.caption.15}}
+\backcite {zhang2016colorful}{{8}{4.5}{figure.caption.15}}
+\backcite {edges2cats}{{9}{11}{figure.caption.15}}
+\backcite {background}{{9}{11}{figure.caption.15}}
+\backcite {palette}{{9}{11}{figure.caption.15}}
+\backcite {sketch2portrait}{{9}{11}{figure.caption.15}}
+\backcite {sketch2pokemon}{{9}{11}{figure.caption.15}}
+\backcite {pose}{{9}{11}{figure.caption.15}}
+\backcite {fotogenerator}{{9}{11}{figure.caption.15}}
+\backcite {sunday}{{9}{12}{figure.caption.17}}
+\backcite {eitz2012humans}{{12}{18}{figure.caption.24}}
+\backcite {pathak2016context}{{13}{19}{figure.caption.25}}
+\backcite {doersch2012makes}{{13}{19}{figure.caption.25}}
+\backcite {hwang2015multispectral}{{13}{20}{figure.caption.26}}
+\backcite {radford2015unsupervised}{{16}{6.1}{subsection.6.1}}
+\backcite {Cordts2016Cityscapes}{{16}{6.2}{subsection.6.2}}
+\backcite {Tylecek13}{{16}{6.2}{subsection.6.2}}
+\backcite {russakovsky2015imagenet}{{16}{6.2}{subsection.6.2}}
+\backcite {zhang2016colorful}{{16}{6.2}{subsection.6.2}}
+\backcite {larsson2016learning}{{16}{6.2}{subsection.6.2}}
+\backcite {yu2014fine}{{16}{6.2}{subsection.6.2}}
+\backcite {zhu2016generative}{{16}{6.2}{subsection.6.2}}
+\backcite {laffont2014transient}{{16}{6.2}{subsection.6.2}}
+\backcite {hwang2015multispectral}{{16}{6.2}{subsection.6.2}}
+\backcite {doersch2012makes}{{17}{6.2}{subsection.6.2}}
+\backcite {pathak2016context}{{17}{6.2}{subsection.6.2}}
